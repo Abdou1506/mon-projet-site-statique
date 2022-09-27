@@ -1,0 +1,202 @@
+@media (min-width: 1450px) {
+    #slide {
+        height: 450px;
+    }
+
+    #carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #intro {
+        width: 100%;
+        height: 150px;
+        background-color: #FDC236;
+        color: white;
+        font-size: 2rem;
+        font-weight: bolder;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #About {
+        margin-bottom: 100px;
+
+        margin: auto;
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #service {
+        padding: 15px;
+        margin-top: 100px;
+        text-align: center;
+        width: 100%;
+        height: 900px;
+        gap: 20px;
+        background-color: #EEEEEE;
+        margin-bottom: 50px;
+    }
+
+    #text {
+        margin: auto;
+        width: 100%;
+        height: 270px;
+        padding: 10px;
+        margin-top: 15px;
+        background: #EEEEEE;
+    }
+
+    #textabout {
+        margin: auto;
+        width: 100%;
+        height: 270px;
+        padding: 10px;
+        margin-top: 15px;
+        background: #EEEEEE;
+    }
+
+    #piedindex {
+        margin-top: 300px;
+        width: 100%;
+        height: 200px;
+        background: #FCC642;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        border: solid 1px black;
+
+    }
+
+    #piedabout {
+        margin-top: 50px;
+        width: 95%;
+        height: 200px;
+        background: #FCC642;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        border: solid 1px black;
+
+    }
+
+    #piedblog {
+        margin-top: 30px;
+        width: 100%;
+        height: 200px;
+        background: #FCC642;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        border: solid 1px black;
+
+    }
+
+    #zoneintro {
+        margin-top: 20px;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #blocintro {
+
+        /* background-color: rgb(218, 218, 72); */
+        width: 100%;
+        margin-top: -50px;
+        height: 350px;
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    #zonetext {
+        margin: auto;
+        /* margin-bottom: 20px; */
+        margin-top: -50px;
+        width: 95%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* border: solid; */
+    }
+
+    #zonetext1 {
+        margin: auto;
+        margin-top: -60px;
+        /* margin-bottom: 20px; */
+        width: 90%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* border: solid; */
+    }
+
+    #piedblog {
+        margin-top: 0px;
+        width: 100%;
+        height: 200px;
+        background: #FCC642;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        border: solid 1px black;
+
+    }
+
+    #footer {
+        width: 100%;
+        height: 400px;
+        margin-top: -50px;
+        /* background-color: black; */
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #serviceblog {
+        margin-top: 10px;
+
+        box-shadow: black;
+        padding: 15px;
+        padding: 50px;
+        text-align: center;
+        width: 95%;
+
+        height: 2000px;
+        margin: auto;
+        gap: 20px;
+        background-color: #501c1c;
+
+
+    }
+    #contact{
+        width: 100%;
+        height: 500px;
+        
+        padding: 40px;
+        /* background-color: aqua; */
+        display: flex;
+        
+        justify-content: space-between;
+        margin-bottom: 20px;
+        
+        margin-top: 20px;
+            gap: 20px;
+        
+        }
+}

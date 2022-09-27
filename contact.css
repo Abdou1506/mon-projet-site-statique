@@ -1,0 +1,60 @@
+input
+{
+    border: 3px blue dashed;
+}
+
+#contact{
+width: 100%;
+height: 400px;
+
+padding: 40px;
+/* background-color: aqua; */
+display: flex;
+
+justify-content: space-between;
+margin-bottom: 20px;
+
+margin-top: 20px;
+    gap: 20px;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.abdou2{
+    /* border: solid 1px black; */
+    width: 45%; 
+   height: 100%;
+   color: beige;
+   /* background: rgb(201, 147, 147); */
+    
+  
+
+}
+.abdou2{
+    
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+    
+  
+
+}
+.abdou2 img{
+    
+    width: 80%; 
+   height: 90%;
+   
+   
+   object-fit: cover;
+   color: beige;
+   /* background: rgb(201, 147, 147); */
+    
+  
+
+}

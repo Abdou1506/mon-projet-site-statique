@@ -1,0 +1,79 @@
+#blog {
+    width: 100%;
+    height: 200px;
+    background: url(images/inner-heading-bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#serviceblog {
+    margin-top: 10px;
+   
+    box-shadow: black;
+    padding: 15px;
+    padding:50px;
+    text-align: center;
+    width: 95%;
+
+    height: 1850px;
+    margin: auto;
+    gap: 20px;
+        background-color: #501c1c;
+       
+
+}
+#serviceblog .row{
+    gap: 5px 5px;
+}
+.col-md-4{
+    border: solid 1px;
+    width: 32.33%;
+    margin: auto;
+    
+    
+    
+
+}
+
+
+#serviceblog h5 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+#serviceblog p {
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+#serviceblog .btn-primary {
+    text-align: left;
+    font-size: 1rem;
+    background-color: #FBC002;
+    font-size: 1rem;
+    font-weight: bolder;
+    
+
+}
+nav .pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FBC002;
+
+}
+nav .pagination a{
+    background-color: #FBC002;
+    color: black;
+    list-style: none !important;
+    text-decoration: none !important;
+
+}
