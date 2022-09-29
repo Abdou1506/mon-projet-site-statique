@@ -18,7 +18,7 @@
     text-align: center;
     width: 95%;
 
-    height: 1850px;
+    height: 1350px;
     margin: auto;
     gap: 20px;
         /* background-color: #501c1c; */
@@ -32,6 +32,8 @@
     border: solid 1px;
     width: 32.33%;
     margin: auto;
+        /* background-color: #501c1c; */
+
     
     
     
@@ -47,14 +49,25 @@
     margin-top: 30px;
 
 }
+/* #serviceblog img {
+    width: 100px;
+    height: 300px;
+    object-fit: cover;
+} */
 #serviceblog a h5 {
     text-align: center;
     font-size: 1rem;
     font-weight: bolder;
     margin-bottom: 30px;
     margin-top: 30px;
-    background-color: #FBC002;
     color: black !important;
+
+}
+#serviceblog img {
+    width: 330px;
+    height: 260px;
+    border-radius: 20px;
+    box-sizing: border-box;
 
 }
 #serviceblog p {

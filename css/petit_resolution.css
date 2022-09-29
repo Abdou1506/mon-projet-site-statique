@@ -261,10 +261,10 @@
         /* padding: 15px; */
         padding: 50px;
         text-align: center;
-        width: 95%;
+        width: 90%;
         display: flex;
         align-items: center;
-        height: 5310px;
+        height: 5950px;
         margin: auto;
         margin-bottom: 0px;
         /* gap: 20px; */
@@ -505,7 +505,7 @@
         box-sizing: border-box;
         display: inline-block;
         /* background: #000000; */
-        margin-left: 15px;
+        margin-left: 20px;
 
     }
 

@@ -226,12 +226,35 @@
         width: 95%;
         display: flex;
         align-items: center;
-        height: 6600px;
+        height: 5250px;
         margin: auto;
         margin-bottom: 10px;
         /* gap: 20px; */
         /* background-color: #501c1c; */
 
+    }
+    #serviceblog img {
+        width: 500px;
+        height: 260px;
+        border-radius: 20px;
+        box-sizing: border-box;
+    
+    }
+    #serviceblog a h5 {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bolder;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        color: black !important;
+    
+    }
+    #serviceblog p {
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    
     }
     .col-md-4 {
         /* border: solid 1px; */
