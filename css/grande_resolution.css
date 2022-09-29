@@ -41,6 +41,17 @@
         background-color: #EEEEEE;
         margin-bottom: 50px;
     }
+    #serviceabout {
+        padding: 15px;
+        margin-top: 50px;
+        text-align: center;
+        width: 100%;
+        height: 650px;
+        gap: 20px;
+        /* margin-bottom: 20px; */
+        /* background-color: #bc8c8c; */
+
+    }
 
     #text {
         margin: auto;
@@ -61,7 +72,7 @@
     }
 
     #piedindex {
-        margin-top: 300px;
+        margin-top: 200px;
         width: 100%;
         height: 200px;
         background: #FCC642;
@@ -112,12 +123,30 @@
 
         /* background-color: rgb(218, 218, 72); */
         width: 100%;
-        margin-top: -50px;
-        height: 350px;
+        margin-top: -80px;
+        height: 450px;
         display: flex;
         justify-content: space-around;
         gap: 20px;
     }
+    .blocintro1 img{
+        width: 55%;
+        height: 65%;
+        margin-top: 80px;
+        padding: 10px;
+        margin-left: 250px;
+        /* margin-top: 20px; */
+        object-fit: cover;
+        /* border-radius: 30px; */
+       /* margin-left: 20px; */
+         
+     }
+     .blocintro2 p{
+        margin: auto;
+        margin-right: 100px;
+        
+    }
+    
 
     #zonetext {
         margin: auto;
@@ -177,10 +206,10 @@
         text-align: center;
         width: 95%;
 
-        height: 2000px;
+        height: 2100px;
         margin: auto;
         gap: 20px;
-        background-color: #501c1c;
+        /* background-color: #501c1c; */
 
 
     }
@@ -199,4 +228,33 @@
             gap: 20px;
         
         }
+        #sms {
+            width: 100%;
+            height: 500px;
+            margin-top: 45px;
+            background: url(../images/inner-heading-bg.jpg);
+
+        
+            display: flex;
+            flex-direction: column;
+        /* justify-content: space-around; */
+            align-items: center;
+            
+            color: #FDC236;
+        
+        }
+        .corp {
+
+
+            margin-top: -20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #000000;
+            padding: 15px;
+            gap: 15px;
+            
+        }
+       
+       
 }

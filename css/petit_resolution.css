@@ -1,9 +1,4 @@
-@media only screen and (min-width : 321px) {
-
-    /* CSS */
-
-
-
+@media (max-width: 576px) {
 
     #intro {
         width: 100%;
@@ -31,8 +26,10 @@
     }
 
     #About {
+        width: 90%;
+        margin: auto;
         display: flex;
-
+        /* background-color: rgb(86, 45, 45); */
         flex-direction: column;
         text-align: center;
         padding: 10px;
@@ -67,26 +64,51 @@
     #text {
 
         width: 90%;
-        height: 1150px;
+        height: 1400px;
         text-align: center;
         margin-top: 760px;
         background: #EEEEEE;
+        margin-top: 05px;
     }
 
     #textabout {
 
         width: 90%;
-        height: 1200px;
+        height: 1500px;
         text-align: center;
-        margin-top: 700px;
+        margin-top: 00px;
         background: #EEEEEE;
+        /* margin-bottom: 00px; */
+    }
+
+    #piedabout {
+        /* margin-top: 20px; */
+        width: 100%;
+        height: 200px;
+        background: #FCC642;
+
+    }
+
+    #piedindex .btn {
+
+        font-size: 1rem;
+        font-weight: bolder;
+        color: #FBC002;
+        background-color: black;
+        width: 50%;
+        margin: auto;
+
+
     }
 
     #sms {
-        width: 100%;
+        width: 90%;
         height: 1300px;
+        margin: auto;
         margin-top: 5px;
-        background: url(images/inner-heading-bg.jpg);
+        /* background: url(../images/testimonial-bg.jpg); */
+        /* background: url(../images/inner-heading-bg.jpg); */
+
         object-fit: contain;
         display: flex;
         flex-direction: column;
@@ -121,6 +143,7 @@
 
     }
 
+
     #enfant {
         width: 100%;
         height: 200px;
@@ -137,10 +160,14 @@
         flex-direction: column;
         padding: 30px;
         width: 100%;
-        height: 900px;
+        height: 2300px;
         margin-top: 20px;
         box-sizing: border-box;
         text-align: center;
+        /* margin-bottom: 100px; */
+        /* gap: 20px; */
+        /* background-color: rgb(125, 46, 46); */
+        /* margin-bottom: 3000px; */
     }
 
     /* #t{
@@ -153,7 +180,8 @@
     #team {
         display: flex;
         flex-direction: column;
-        margin-bottom: 1350px;
+        margin-bottom: 10px;
+        /* background-color: rgb(192, 68, 68); */
     }
 
     #team h2 {
@@ -163,6 +191,8 @@
 
     #team p {
         height: 100px;
+        /* background-color: rgb(192, 68, 68); */
+
     }
 
     #team img {
@@ -172,9 +202,10 @@
     }
 
     #piedindex {
-        margin-top: 770px;
+        margin-top: -270px;
         width: 100%;
-        height: 200px;
+        height: 150px;
+        padding: 20px;
         background: #FCC642;
 
     }
@@ -190,7 +221,7 @@
     #piedblog {
         margin-top: 20px;
         width: 100%;
-        height: 200px;
+        height: 100px;
         background: #FCC642;
 
     }
@@ -201,10 +232,24 @@
         padding: 15px;
         margin-top: 50px;
         text-align: center;
+        width: 90%;
+        height: 1430px;
+        /* gap: 20px; */
+        /* margin-bottom: 50px; */
+        margin: auto;
+        /* background-color: #bc8c8c; */
+
+    }
+
+    #serviceabout {
+        padding: 15px;
+        margin-top: 20px;
+        text-align: center;
         width: 100%;
-        height: 670px;
+        height: 1310px;
         gap: 20px;
-        background-color: #EEEEEE;
+        /* margin-bottom: 20px; */
+        /* background-color: #bc8c8c; */
 
     }
 
@@ -213,17 +258,17 @@
         display: flex;
         flex-direction: column;
         box-shadow: black;
-        padding: 15px;
+        /* padding: 15px; */
         padding: 50px;
         text-align: center;
         width: 95%;
         display: flex;
         align-items: center;
-        height: 4200px;
+        height: 5310px;
         margin: auto;
-        margin-bottom: 650px;
+        margin-bottom: 0px;
         /* gap: 20px; */
-        /* background-color: #EEEEEE; */
+        /* background-color: #501c1c; */
 
     }
 
@@ -234,6 +279,28 @@
 
 
 
+
+
+    }
+
+    #piedblog {
+        margin: auto;
+        margin-top: 10px;
+        width: 100%;
+        height: 100px;
+        background: #FCC642;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        border: solid 1px black;
+
+    }
+
+    #piedblog a {
+
+        width: 100%;
 
 
     }
@@ -429,7 +496,29 @@
 
     }
 
-    nav ul .pagination li {
+    #pagination {
+
+        width: 90%;
+        height: 50px;
+        margin: auto;
+        text-align: center;
+        box-sizing: border-box;
+        display: inline-block;
+        /* background: #000000; */
+        margin-left: 15px;
+
+    }
+
+    nav ul .pagination {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        /* padding: 0px; */
+        /* background-color: red; */
+        display: inline-block;
+    }
+
+    #pagination li {
         width: 130px;
         height: 80px;
         padding: 0px;
@@ -437,14 +526,23 @@
         display: inline-block;
     }
 
-    #pagination {
-        width: 50%;
-        margin: auto;
+
+
+
+    nav .pagination a {
+        background-color: #FBC002;
+        color: black;
+
+        list-style: none !important;
+        text-decoration: none !important;
+
     }
+
 
     #blogservice {
         width: 100%;
         height: 100px;
+        margin-top: -50px;
         background: url(images/inner-heading-bg.jpg);
         display: flex;
         justify-content: center;
@@ -455,10 +553,11 @@
 
     #zonetext {
         margin: auto;
-        margin-bottom: 400px;
         margin-top: 0px;
+        margin-bottom: 90px;
+        /* margin-top: 0px; */
         width: 95%;
-        height: 700px;
+        height: 900px;
         /* background-color: rgb(148, 30, 30); */
         display: flex;
         justify-content: center;
@@ -468,7 +567,7 @@
     }
 
     #blocintro {
-        margin-top: -390px;
+        margin-top: 0px;
         /* background-color: rgb(97, 34, 222); */
         width: 100%;
 
@@ -477,8 +576,17 @@
         flex-direction: column;
         justify-content: space-around;
         gap: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 100px;
         /* margin-bottom: 20px; */
+    }
+
+    #zoneintro {
+        margin-top: 20px;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .blocintro1 img {
@@ -503,13 +611,20 @@
         /* border-color: rgb(218, 94, 94); */
     }
 
+    .blocintro2 p {
+        margin: auto;
+        margin-right: 0px;
+
+    }
+
     #zonetext1 {
         margin: auto;
-        margin-bottom: 20px;
+        margin-top: 500px;
+        margin-bottom: 10px;
         text-align: justify;
         margin-top: 0px;
         width: 95%;
-        height: 700px;
+        height: 900px;
         /* background-color: rgb(148, 30, 30); */
         display: flex;
         justify-content: center;

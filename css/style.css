@@ -204,6 +204,7 @@ li:hover a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* background-color: rgb(71, 32, 32); */
 }
 
 span {
@@ -238,7 +239,17 @@ span {
     width: 100%;
     height: 600px;
     gap: 20px;
-    background-color: #EEEEEE;
+    /* background-color: #e47f7f; */
+
+}
+#serviceabout {
+    padding: 15px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    gap: 20px;
+    /* background-color: #e47f7f; */
 
 }
 
@@ -279,7 +290,8 @@ span {
     width: 100%;
     height: 500px;
     margin-top: 45px;
-    background: url(images/inner-heading-bg.jpg);
+    background: url(../images/testimonial-bg.jpg);
+/* background-color: rgb(171, 36, 36); */
     display: flex;
     flex-direction: column;
 
@@ -415,7 +427,7 @@ p i {
    font-weight: bolder;
 }
 #piedindex{
-    margin-top: 30px;
+    margin-top: 100px;
     width: 100%;
     height: 200px;
     background: #FCC642;
@@ -476,7 +488,7 @@ p i {
     font-weight: bolder;
     color:#FBC002 ;
     background-color:black ;
-    width: 20%;
+    width: 30%;
     
 
 }
@@ -510,8 +522,8 @@ background-color: #000000;
     flex-direction: column;
   text-align: start;
    font-size: 1rem;
-   justify-content: center;
-   margin-top: -20px;
+   justify-content: space-evenly;
+   margin-top: -30px;
    margin-left: 40px;
 }
 
@@ -552,7 +564,7 @@ background-color: #000000;
     justify-content: center;
    
    font-size: 1rem;
-   margin-top: -25px;
+   margin-top: -85px;
 }
 #footer h2{
    
@@ -579,21 +591,28 @@ footer h2{
 .chid3{
     /* border: #FCC642 solid; */
     display: flex;
-    flex-basis: 20%;
+    flex-basis: 25%;
     flex-direction: column;
    justify-content: center;
    font-size: 10px;
-   margin-top:-100px;
+   margin-top:30px;
 }
 .chid4{
     /* border: #FCC642 solid; */
     display: flex;
     flex-basis: 20%;
     flex-direction: column;
+
    
    font-size: 0.6rem;
    margin-top: 35px;
    align-items: flex-start;
+}
+.chid4 .titre{
+    margin-bottom: 20px;
+}
+.chid4 .icone i{
+    margin-bottom: 30px;
 }
 .element2{
     background-color: #000000;
@@ -621,6 +640,9 @@ nav .pagination li{
 #pagination{
     width: 50%;
     margin: auto;
+    margin-top: 0px;
+    /* background-color: #FBC002; */
+
 }
 #erreur{
     /* background-color: #FBC002; */
