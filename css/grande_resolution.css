@@ -41,6 +41,7 @@
         background-color: #EEEEEE;
         margin-bottom: 50px;
     }
+
     #serviceabout {
         padding: 15px;
         margin-top: 50px;
@@ -129,7 +130,8 @@
         justify-content: space-around;
         gap: 20px;
     }
-    .blocintro1 img{
+
+    .blocintro1 img {
         width: 55%;
         height: 65%;
         margin-top: 80px;
@@ -138,15 +140,16 @@
         /* margin-top: 20px; */
         object-fit: cover;
         /* border-radius: 30px; */
-       /* margin-left: 20px; */
-         
-     }
-     .blocintro2 p{
+        /* margin-left: 20px; */
+
+    }
+
+    .blocintro2 p {
         margin: auto;
         margin-right: 100px;
-        
+
     }
-    
+
 
     #zonetext {
         margin: auto;
@@ -206,21 +209,303 @@
         text-align: center;
         width: 95%;
 
-        height: 1850px;
+        height: auto;
         margin: auto;
         gap: 20px;
         /* background-color: #501c1c; */
 
 
     }
+
     #serviceblog img {
         width: 500px;
         height: 260px;
         border-radius: 20px;
         box-sizing: border-box;
+
+    }
+
+    #serviceblog a h5 {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bolder;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        color: black !important;
+
+    }
+
+    #serviceblog p {
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 30px;
+        margin-top: 30px;
+
+    }
+
+    #contact {
+        width: 100%;
+        height: 500px;
+
+        padding: 40px;
+        /* background-color: aqua; */
+        display: flex;
+
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        margin-top: 20px;
+        gap: 20px;
+
+    }
+
+    #sms {
+        width: 100%;
+        height: 500px;
+        margin-top: 45px;
+        background: url(../images/inner-heading-bg.jpg);
+
+
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        align-items: center;
+
+        color: #FDC236;
+
+    }
+
+    .corp {
+
+
+        margin-top: -20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #000000;
+        padding: 15px;
+        gap: 15px;
+
+    }
+
+    /*start amenagement de magasin */
+    #agencement {
+        width: 100%;
+        height: 700px;
+
+        padding: 40px;
+        /* background-color: aqua; */
+        display: flex;
+
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        margin-top: 20px;
+        gap: 20px;
+
+    }
+
+    .agencement1 {
+
+
+        display: flex;
+        flex-basis: 60%;
+        background: #FCC642;
+
+
+
+
+    }
+
+    .agencement1 img {
+
+
+        width: 100%;
+        height: 100%;
+
+
+
+
+
+    }
+
+    .agencement2 {
+
+
+        display: flex;
+        flex-basis: 40%;
+        color: #000000;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    .agencement2 img {
+
+        width: 80%;
+        height: 90%;
+
+
+        object-fit: cover;
+        color: beige;
+        /* background: rgb(201, 147, 147); */
+    }
+    #detailamenagement {
+        width: 55%;
+        height: auto;
+        /* background: #FBC002; */
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+    #detailtendance {
+        width: 55%;
+        height: auto;
+        /* background: #FBC002; */
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+    #corpamenagement {
+        width: 75%;
+        height: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    margin-bottom: 20px;
+        margin-left: 150px;
+    
+        /* background: rgb(227, 52, 52); */
+    
     
     }
-    #serviceblog a h5 {
+    #corpamenagement h2 {
+        width: 100%;
+        height: 100px;
+        text-align: left;
+        margin-left: 100px;
+        /* background: rgb(186, 57, 57); */
+    
+    
+    }
+    #corpamenagement P {
+        /* margin-top: 0px; */
+        width: 600px;
+        height: 140px;
+        text-align: justify;
+        /* margin-bottom: 20px; */
+    
+        /* background: rgb(138, 24, 24); */
+    
+    
+    }
+    #corpamenagement img {
+        width: 510px;
+        height: 300px;
+        /* background: rgb(201, 147, 147); */
+    
+    
+    }
+    #tendance {
+        width: 75%;
+        height: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    margin-bottom: 20px;
+        /* margin-left: 150px; */
+    
+        /* background: rgb(227, 52, 52); */
+    
+    
+    }
+    #tendance h2 {
+        width: 100%;
+        height: auto;
+        text-align: left;
+        margin-left: 100px;
+        /* background: rgb(186, 57, 57); */
+    
+    
+    }
+    #tendance P {
+        /* margin-top: 0px; */
+        width: 600px;
+        height: auto;
+        text-align: justify;
+        /* margin-bottom: 20px; */
+    
+        /* background: rgb(138, 24, 24); */
+    
+    
+    }
+    #tendance img {
+        width: 510px;
+        height: 300px;
+        /* background: rgb(201, 147, 147); */
+    
+    
+    }
+    #articleplus {
+        margin-top: 20px;
+        text-align: center;
+        width: 95%;
+    
+        height: 900px;
+        margin: auto;
+        gap: 20px;
+        /* background-color: #501c1c; */
+    
+    
+    }
+    
+    #articleplus1 {
+        margin-top: 10px;
+    
+        box-shadow: black;
+        padding: 15px;
+        padding: 50px;
+        text-align: center;
+        width: 95%;
+    
+        height: 1200px;
+        margin: auto;
+        gap: 20px;
+        /* background-color: #501c1c; */
+    
+    
+    }
+    
+    #articleplus1 .row {
+        gap: 5px 5px;
+    }
+    
+    .col-md-4 {
+        border: solid 1px;
+        width: 32.33%;
+        margin: auto;
+        /* background-color: #501c1c; */
+    
+    
+    
+    
+    
+    }
+    
+    
+    #articleplus1 h5 {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bolder;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    
+    }
+    #articleplus1 a h5 {
         text-align: center;
         font-size: 1rem;
         font-weight: bolder;
@@ -229,55 +514,31 @@
         color: black !important;
     
     }
-    #serviceblog p {
-        text-align: center;
+    
+    #articleplus1 img {
+        width: 330px;
+        height: 260px;
+        border-radius: 20px;
+        box-sizing: border-box;
+    
+    }
+    
+    #articleplus1 p {
+        text-align: left;
         font-size: 1rem;
         margin-bottom: 30px;
         margin-top: 30px;
     
     }
-    #contact{
-        width: 100%;
-        height: 500px;
-        
-        padding: 40px;
-        /* background-color: aqua; */
-        display: flex;
-        
-        justify-content: space-between;
-        margin-bottom: 20px;
-        
-        margin-top: 20px;
-            gap: 20px;
-        
-        }
-        #sms {
-            width: 100%;
-            height: 500px;
-            margin-top: 45px;
-            background: url(../images/inner-heading-bg.jpg);
+    
+    #articleplus1 .btn-primary {
+        text-align: left;
+        font-size: 1rem;
+        background-color: #FBC002;
+        font-size: 1rem;
+        font-weight: bolder;
+    
+    
+    }
 
-        
-            display: flex;
-            flex-direction: column;
-        /* justify-content: space-around; */
-            align-items: center;
-            
-            color: #FDC236;
-        
-        }
-        .corp {
-
-
-            margin-top: -20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: #000000;
-            padding: 15px;
-            gap: 15px;
-            
-        }
-       
-       
 }

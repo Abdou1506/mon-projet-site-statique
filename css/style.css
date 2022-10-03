@@ -76,7 +76,7 @@ a {
     text-align: center;
     /* background-color: #fffefd; */
     text-decoration: none;
-    color: rgb(251, 248, 248);
+    color: rgb(251, 248, 248) ;
     /* padding: 25px; */
     /* height: 100%; */
 }
@@ -140,7 +140,7 @@ ul .dropdown-menu li {
 
 ul .dropdown-menu li:hover a {
 
-    /* border: #FBC002 solid ; */
+    border: #FBC002 solid ;
     width: 400px;
     /* color: black ; */
     height: auto;
@@ -163,12 +163,12 @@ ul .dropdown-menu li a:hover {
 
 ul .dropdown-menu li a {
 
-    font-size: 0.2rem;
+    font-size: 1rem;
     width: 330px;
     /* color: black ; */
     background-color: none !important;
     height: auto;
-    color: #000000 !important;
+    color: #ffffff !important;
 
 
 }
@@ -733,7 +733,7 @@ nav .pagination li {
     /* border: solid 1px black; */
 
 }
-
+/*start amenagement de magasin */
 #agencement {
     width: 100%;
     height: 500px;
@@ -800,14 +800,20 @@ nav .pagination li {
 
 #detailamenagement {
     width: 55%;
-    height: 250px;
+    height: auto;
+    /* background: #FBC002; */
+    margin-left: 80px;
+}
+#detailtendance {
+    width: 55%;
+    height: auto;
     /* background: #FBC002; */
     margin-left: 80px;
 }
 
 #corpamenagement {
     width: 55%;
-    height: 1000px;
+    height: auto;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -887,7 +893,7 @@ nav .pagination li {
 
 #corpamenagement h2 {
     width: 100%;
-    height: 100px;
+    height: auto;
     text-align: left;
     margin-left: 100px;
     /* background: rgb(186, 57, 57); */
@@ -938,7 +944,7 @@ nav .pagination li {
 #corpamenagement P {
     /* margin-top: 0px; */
     width: 600px;
-    height: 300px;
+    height: auto;
     text-align: justify;
 
     /* background: rgb(138, 24, 24); */
@@ -1029,7 +1035,7 @@ nav .pagination li {
 }
 
 #articleplus {
-    margin-top: 20px;
+    margin-top: 0px;
     text-align: center;
     width: 95%;
 
@@ -1118,3 +1124,58 @@ nav .pagination li {
 
 
 }
+/*end amenagement de magasin */
+#tendance {
+    width: 55%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+
+    /* background: rgb(227, 52, 52); */
+
+
+}
+#detailtendance {
+    width: 55%;
+    height: 250px;
+    /* background: #FBC002; */
+    margin-left: 80px;
+}
+
+#tendance img {
+    width: 510px;
+    height: 300px;
+    /* background: rgb(201, 147, 147); */
+
+
+}
+#tendance h2 {
+    width: 100%;
+    height: 100px;
+    text-align: left;
+    margin-left: 100px;
+    /* background: rgb(186, 57, 57); */
+
+
+}
+#tendance P {
+    /* margin-top: 0px; */
+    width: 600px;
+    height: auto;
+    text-align: justify;
+
+    /* background: rgb(138, 24, 24); */
+
+
+}
+#tendance h3 {
+   color: #706F6F;
+
+}
+
